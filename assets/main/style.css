@@ -38,27 +38,43 @@ header{
 
 .jumbotron{
   padding-top: 125px;
-  padding-bottom: 55px;
+  padding-bottom: 50px;
 }
 
-.col{
+.demo-col{
   width: 100%;
   height: 300px;
   margin-bottom: 25px;
   background-color: yellow;
 }
 
+main{
+  background-color: gray;
+}
+
+.strategic-container{
+  padding-top: 35px;
+  padding-bottom: 70px;
+}
+
+.strategic-col{
+  width: 100%;
+  height: 500px;
+  background-color: aqua;
+  margin-top: 35px;
+}
+
 @media screen and (min-width:768px){
-  .col.big-col{
+  .demo-col.demo-big-col{
     width: 66%;
     margin-right: 2%;
   }
   
-  .col{
+  .demo-col{
     width: 32%;
   }
 
-  .central-col{
+  .demo-central-col{
     margin: 0 2%;
   }
 }
@@ -73,5 +89,23 @@ header{
 
   .menu-2{
     display: block;
+  }
+
+  .strategic-container{
+    padding-bottom: 35px;
+  }
+
+  .strategic-container{
+    width: 50%;
+  }
+
+  .strategic-col{
+    width: 45%;
+    margin: 35px 2.5%;
+  }
+
+  .strategic-col-second{
+    height: 300px;
+    align-self: flex-end;
   }
 }
