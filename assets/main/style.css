@@ -58,7 +58,7 @@ main{
 
 .strategic-container{
   padding-top: 35px;
-  padding-bottom: 70px;
+  margin-bottom: 70px;
 }
 
 .strategic-col{
@@ -71,7 +71,7 @@ main{
 .testimonials-container{
   background-color: yellowgreen;
   padding-top: 65px;
-  padding-bottom: 110px;
+  margin-bottom: 110px;
 }
 
 .testimonials-title{
@@ -127,6 +127,46 @@ main{
   margin-bottom: 30px;
 }
 
+.about-us-container{
+  padding-top: 75px;
+  margin-bottom: 75px;
+}
+
+.about-us-text{
+  width: 100%;
+  height: 700px;
+  background-color: yellow;
+  margin-bottom: 40px;
+}
+
+.about-us-img{
+  width: 100%;
+  height: 400px;
+  background-color: orange;
+}
+
+.get-started-container{
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.get-started-text{
+  width: 100%;
+  background-color: yellow;
+  height: 600px;
+}
+
+footer{
+  background-color: black;
+}
+
+.footer-text{
+  padding-top: 40px;
+  width: 100%;
+  height: 400px;
+  background-color: aqua;
+}
+
 @media screen and (min-width:768px){
   .demo-col.demo-big-col{
     width: 66%;
@@ -161,6 +201,15 @@ main{
 
   .benefits-row{
     width: 50%;
+  }
+
+  .about-us-text{
+    width: 60%;
+    margin: 0;
+  }
+
+  .about-us-img{
+    width: 40%;
   }
 }
 
@@ -204,5 +253,13 @@ main{
 
   .benefits-row{
     width: 33%;
+  }
+  
+  .about-us-text{
+    width: 70%;
+  }
+
+  .about-us-img{
+    width: 30%;
   }
 }
