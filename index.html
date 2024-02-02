@@ -3,23 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.css' integrity='sha512-tx5+1LWHez1QiaXlAyDwzdBTfDjX07GMapQoFTS74wkcPMsI3So0KYmFe6EHZjI8+eSG0ljBlAQc3PQ5BTaZtQ==' crossorigin='anonymous'/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/main/style.css">
   <title>Document</title>
 </head>
 <body>
   <header>
     <div class="container debug-header">
-      <div class="box">
+      <div class="box d-flex al-center">
         <!-- logo -->
-
+        <img src="./assets/img/logo.png" alt="logo">
       </div>
 
-      <div class="box menu-1">
+      <div class="box menu menu-1 al-center">
         <!-- menu 1-->
-
+        <i class="f-min fa-solid fa-bars"></i>
       </div>
-      <div class="box menu-2">
+      <div class="box menu menu-2 al-center">
         <!-- menu 2 -->
+        <ul class="d-flex menu-list">
+          <li><a class="f-min-one list-item li-margin" href="#">Planning</a></li>
+          <li><a class="f-min-one list-item li-margin" href="#">Testimonials</a></li>
+          <li><a class="f-min-one list-item li-margin" href="#">Fearures</a></li>
+          <li><a class="f-min-one list-item li-margin" href="#">About Us</a></li>
+          <li><a class="f-min-one button li-margin" href="#">Get Started</a></li>
+        </ul>
       </div>
     </div>
   </header>
@@ -28,22 +39,49 @@
     <div class="container">
       <div class="demo-col demo-big-col">
         <!-- jumbotron-card -->
+        <div class="demo-content">
+          <h2 class="f-min f-bold">Get a demo application</h2>
+          <p class="f-min-two f-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis omnis modi magnam aliquam. Quaerat nihil nisi ipsam quam dolorem.</p>
+          <br>
+          <div><a class="f-min-two f-bold button b-button" href="#"><i class="fa-brands fa-apple"></i> App Store</a></div>
+        </div>
+        <img src="./assets/img/phone.png" alt="">
       </div>
 
       <div class="demo-col">
         <!-- jumbotron-card -->
+        <div class="d-flex al-center flex-column">
+          <i class="f-ico fa-solid fa-file-code"></i>
+          <h2 class="f-min f-bold text-center">Clean Code</h2>
+          <p class="f-min-two f-bold text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis omnis modi magnam aliquam. Quaerat nihil nisi ipsam quam dolorem.</p>
+        </div>
       </div>
 
       <div class="demo-col">
         <!-- jumbotron-card -->
+        <div class="d-flex al-center flex-column">
+          <i class="f-ico fa-solid fa-compass-drafting"></i>
+          <h2 class="f-min f-bold text-center">Web Design</h2>
+          <p class="f-min-two f-bold text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis omnis modi magnam aliquam. Quaerat nihil nisi ipsam quam dolorem.</p>
+        </div>
       </div>
 
       <div class="demo-col demo-central-col">
         <!-- jumbotron-card -->
+        <div class="d-flex al-center flex-column">
+          <i class="f-ico fa-solid fa-laptop-code"></i>
+          <h2 class="f-min f-bold text-center">Developement</h2>
+          <p class="f-min-two f-bold text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis omnis modi magnam aliquam. Quaerat nihil nisi ipsam quam dolorem.</p>
+        </div>
       </div>
 
       <div class="demo-col">
         <!-- jumbotron-card -->
+        <div class="d-flex al-center flex-column">
+          <i class="f-ico fa-solid fa-bullhorn"></i>
+          <h2 class="f-min f-bold text-center">Branding</h2>
+          <p class="f-min-two f-bold text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis omnis modi magnam aliquam. Quaerat nihil nisi ipsam quam dolorem.</p>
+        </div>
       </div>
     </div>
   </section>
