@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+:root{
+  --nain-blue: #0084FD;
+  --light-blue: #B5DDFF;
+  --text-gray: #5A6E7F;
+  --main-purple: #9792E4;
+  --text-orange: #FDC15F;
+  --footer-black: #333333;
+}
+
+
 .purple-background{
   background-color: blueviolet;
 }
@@ -215,7 +225,7 @@ footer{
 
 @media screen and (min-width:1200px){
   .container{
-    width: 60%;
+    width: 70%;
   }
   .menu-1{
     display: none;
