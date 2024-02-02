@@ -66,6 +66,10 @@ img{
   font-weight: bold;
 }
 
+.f-norm{
+  font-weight: 400;
+}
+
 .purple-background{
   background-color: var(--main-purple);
 }
@@ -105,6 +109,10 @@ img{
   padding: 12px 50px;
   word-spacing: 100%;
   letter-spacing: 2px;
+}
+
+.p-button{
+  background-color: var(--main-purple);
 }
 
 .debug-header{
@@ -190,13 +198,9 @@ header{
   margin-bottom: -3.5px;
 }
 
-main{
-  background-color: gray;
-}
-
 .strategic-container{
   padding-top: 35px;
-  margin-bottom: 70px;
+  padding-bottom: 75px;
 }
 
 .strategic-col{
@@ -224,9 +228,11 @@ main{
   border-radius: 50%;
   padding: 15px 18px;
   margin-bottom: 30px;
+  color: white;
 }
 
 .strategic-col img{
+  width: 100%;
   padding-bottom: 76px;
 }
 
@@ -239,37 +245,68 @@ main{
 }
 
 .testimonials-container{
-  background-color: yellowgreen;
   padding-top: 65px;
-  margin-bottom: 110px;
 }
 
 .testimonials-title{
   width: 100%;
-  height: 300px;
-  background-color: chocolate;
+}
+
+.testimonials-title h2{
+  color: var(--main-purple);
+}
+
+.testimonials-title p{
+  padding: 30px 0;
+  line-height: 30px;
 }
 
 .testimonials-col{
   width: 100%;
-  background-color: blueviolet;
+  background-color: var(--main-purple);
   margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  border-radius: 50px;
 }
 
 .testimonials-img{
-  height: 150px;
+  width: 200px;
   aspect-ratio: 1;
-  margin: 20px 0;
-  background-color: yellow;
+  margin: 30px 0;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.testimonials-one{
+  background-image: url(../img/testimonial1.jpg);
+}
+
+.testimonials-two{
+  background-image: url(../img/testimonial2.jpg);
+}
+
+.testimonials-three{
+  background-image: url(../img/testimonial3.jpg);
 }
 
 .testimonials-text{
   width: 100%;
-  height: 250px;
-  background-color: green;
+  text-align: center;
+}
+
+.testimonials-text .description{
+  line-height: 35px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.testimonials-text .name{
+  padding-bottom: 30px;
+  letter-spacing: 3px;
 }
 
 .benefits-conatainer{
@@ -278,8 +315,6 @@ main{
 
 .benefits-title{
   width: 100%;
-  height: 40px;
-  background-color: aqua;
   margin: 65px 0;
 }
 
@@ -356,6 +391,10 @@ footer{
     margin-right: 2%;
   }
 
+  .strategic-col .f-mid{
+    font-size: 4.25rem;
+  }
+
   .testimonials-col{
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -368,10 +407,26 @@ footer{
 
   .testimonials-text{
     width: 100%;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .testimonials-title .f-mid{
+    font-size: 2.5rem;
+  }
+
+  .testimonials-text .name{
+    padding: 0 20px
   }
 
   .benefits-conatainer{
     justify-content: space-between;
+  }
+
+  .benefits-title .f-mid{
+    font-size: 2.75rem;
   }
 
   .benefits-row{
@@ -415,24 +470,36 @@ footer{
 
   .strategic-container{
     padding-bottom: 35px;
-  }
-
-  .strategic-container{
     width: 50%;
+    justify-content: space-around;
   }
 
   .strategic-col{
     width: 45%;
-    margin: 35px 2.5%;
+    margin: 35px 0;
+  }
+
+  .strategic-col .f-mid{
+    font-size: 2rem;
   }
 
   .strategic-col-second{
-    height: 300px;
+    width: 38%;
     align-self: flex-end;
+  }
+
+  .strategic-col-second img{
+    width: 50%;
+    padding-bottom: 20px;
   }
 
   .testimonials-text{
     margin-left: 40px;
+    text-align: start;
+  }
+
+  .testimonials-title .f-mid{
+    font-size: 3rem;
   }
 
   .benefits-card{
