@@ -115,6 +115,14 @@ img{
   background-color: var(--main-purple);
 }
 
+.w-button{
+  background-color: white;
+  color: var(--main-purple);
+  padding: 20px 80px;
+  border-radius: 35px;
+  letter-spacing: 3px;
+}
+
 .debug-header{
   height: 75px;
   justify-content: space-between;
@@ -358,15 +366,45 @@ header{
 
 .about-us-text{
   width: 100%;
-  height: 700px;
-  background-color: yellow;
   margin-bottom: 40px;
+}
+
+.about-us-text h2{
+  color: var(--main-purple);
+  padding-bottom: 40px;
+}
+
+.about-us-text p{
+  color: black;
+  line-height: 40px;
 }
 
 .about-us-img{
   width: 100%;
-  height: 400px;
-  background-color: orange;
+}
+
+.about-us-img p{
+color: var(--main-purple);
+}
+
+.about-us-img .pur-button{
+  margin: 30px 0;
+}
+
+.about-us-img .pur-button .button{
+  color: white;
+}
+
+.about-us-img .img{
+  width:50%;
+  aspect-ratio: 1;
+  background-size: cover;
+  background-image: url(../img/about.jpg);
+  border-radius: 50%;
+  color:var(--main-purple);
+  font-size: 8rem;
+  text-align: end;
+  line-height: 6rem;
 }
 
 .get-started-container{
@@ -376,12 +414,43 @@ header{
 
 .get-started-text{
   width: 100%;
-  background-color: yellow;
-  height: 600px;
+}
+
+.get-started-text h3{
+  padding-bottom: 20px;
+  color: var(--text-gray);
+}
+
+.get-started-text h2{
+  padding-bottom: 30px;
+}
+
+.get-started-text h1{
+  color: var(--text-orange);
+  padding-bottom: 40px;
+}
+
+.get-started-text p{
+  padding-bottom: 65px;
+}
+
+.get-started-text ul{
+  margin-top: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.get-started-text ul li{
+  padding: 0 2px;
+  list-style: none;
+}
+
+.get-started-text ul li a{
+  color: white;
 }
 
 footer{
-  background-color: black;
+  background-color: var(--footer-black);
 }
 
 .footer-text{
@@ -458,11 +527,20 @@ footer{
 
   .about-us-text{
     width: 60%;
+    padding-right: 50px;
     margin: 0;
+  }
+
+  .about-us-text .f-main{
+    font-size: 4.25rem;
   }
 
   .about-us-img{
     width: 40%;
+  }
+
+  .about-us-img .img{
+    width: 100%;
   }
 }
 
@@ -535,9 +613,11 @@ footer{
   
   .about-us-text{
     width: 70%;
+    padding-right: 150px;
   }
 
   .about-us-img{
     width: 30%;
+    padding-right: 100px;
   }
 }
