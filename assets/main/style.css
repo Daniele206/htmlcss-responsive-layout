@@ -327,9 +327,28 @@ header{
 .benefits-card{
   width: 100%;
   max-width: 300px;
-  height: 400px;
-  background-color: aquamarine;
+  background-color: white;
   margin-bottom: 30px;
+  color: var(--text-gray);
+  border-radius: 25px;
+}
+
+.benefits-card .f-main{
+  padding: 40px 30px;
+  color: var(--main-purple);
+}
+
+.benefits-card h3{
+  color: var(--main-purple);
+  padding: 0 30px;
+}
+
+.benefits-card p{
+  padding: 40px 30px;
+}
+
+.benefits-card .pur-button{
+  margin: 0 0 45px 30px;
 }
 
 .about-us-container{
@@ -431,6 +450,10 @@ footer{
 
   .benefits-row{
     width: 50%;
+  }
+
+  .benefits-card .f-main{
+    font-size: 4.25rem;
   }
 
   .about-us-text{
